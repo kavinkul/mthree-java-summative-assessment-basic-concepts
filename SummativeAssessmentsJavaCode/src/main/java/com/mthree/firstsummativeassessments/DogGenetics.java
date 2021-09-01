@@ -56,6 +56,7 @@ public class DogGenetics {
     
     // Function for choosing n elements from string array at random.
     // If n is 0 or less, returns empty array.
+    // A slight modification of Fisher-Yates Shuffle.
     
     public static String[] selectDistinctN(String[] arr, int n){
         if (n <= 0)
